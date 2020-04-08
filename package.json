@@ -1,0 +1,50 @@
+{
+  "name": "gulp-and-webpack",
+  "version": "1.0.0",
+  "description": "Powerful standard framework for front-end web development with gulp and webpack",
+  "author": {
+    "name": "Joao Netto (jnetto23)",
+    "email": "jnetto@fyyb.com.br",
+    "url": "https://github.com/jnetto23/"
+  },
+  "repository": "jnetto23/gulp-and-webpack",
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "webpack",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "gulp --development",
+    "build": "gulp --production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
+    "@babel/plugin-transform-async-to-generator": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "autoprefixer": "^9.7.5",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-gzip": "^1.4.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-save": "^1.3.0",
+    "gulp-sitemap": "^7.6.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-webp": "^4.0.1",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^15.3.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
