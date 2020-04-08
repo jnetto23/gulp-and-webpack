@@ -38,7 +38,7 @@ function html() {
 function js() {
   return src("./src/assets/js/**/*.js")
     .pipe(webpack({ devtool: "source-map", config: webpackConfig }))
-    .pipe(gulpif(argv.production, rename({ extname: ".min.js" })))
+    .pipe(rename({ extname: ".min.js" }))
     .pipe(gulpif(argv.gzip, gzip()))
     .pipe(dest("./dist/assets/js/"));
 }
