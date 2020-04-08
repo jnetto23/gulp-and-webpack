@@ -14,7 +14,7 @@ src/
  │  	├── images/
  │  	├── js/
  │  	├── sass/
- │  	├── videos/
+ │  	└── videos/
  ├─ robots.txt
  ├─ .htaccess
  ├─ index.html
