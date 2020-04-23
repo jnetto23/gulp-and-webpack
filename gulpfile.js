@@ -18,7 +18,7 @@ const webpackConfig = require("./webpack.config");
 const sass = require("gulp-sass");
 const autoprefixer = require("autoprefixer");
 const postcss = require("gulp-postcss");
-const cssnano = require("gulp-cssnano");
+const cssnano = require("gulp-uglifycss");
 const sourcemaps = require("gulp-sourcemaps");
 // images
 const imagemin = require("gulp-imagemin");
